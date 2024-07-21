@@ -1,0 +1,8 @@
+# P(Y = b | X = w) * P(X = w) + P(Y = b | X = b) + P(X = b)
+# (6/14 * 5/9) + (7/14 * 4/9) 
+
+
+from fractions import Fraction
+
+result = Fraction(6, 14) * Fraction(5, 9) + Fraction(7, 14) * Fraction(4, 9)
+print(result)  # 29/63
